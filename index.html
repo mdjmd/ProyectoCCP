@@ -1,34 +1,119 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>David Bisbal</title>
+		
 		<!-- linking css file with html file -->
-		<link rel="stylesheet" type="text/css" href="style.css"> 
+		<link rel="stylesheet" type="text/css" href="style.css">         
+		<link href="https://fonts.googleapis.com/css2?family=Kufam&display=swap" rel="stylesheet">
+		<title>David Bisbal</title>
 	</head>
-	<body>
-		<div class="bannerPrincipal">
-            <h1>David Bisbal</h1>	
-            <div class="bannerSeparator">
-                <span  class="banner1"><img src="david2.jpg" alt="Paris"></span>
-                <span class="banner2">
-                    <b>David Bisbal</b> es un artista global, ganador de 3 Grammy Latino, artista multiplatino y reconocido por su carrera de más de 15 años.
-                    <br>
-                    <hr>
-                    Visita su pagina : <a href="http://www.davidbisbal.com/es_ES/Biografia">davidbisbal.com</a>
-                </span>
-                <span class="banner3"><img src="david3.jpg" alt="Paris"></span>
-            </div>		
+	<body style="background: black; opacity: 0.8;">
+        <div class="container">
+             <div class="container-fluid">
+                <!-- PRIMERA SECCION -->
+                <div class="text-center">
+                    <h1>David Bisbal<small class="text-muted"> Un cantante de los mejores</small></h1>  
+                </div>
+                <hr class="style-eight" />
+                <div class="container">
+            		<div class="row">              
+                        <div class="d-flex p-2">
+                             <div class="col-4 shadowImage">
+                                <img src="./images/david2.jpg" class="img-thumbnail" alt="David Bisbal">
+                            </div>
+                            <div class=" col-4 banner2">
+                                <p>
+                                    <b>David Bisbal</b> es un artista global, ganador de 3 Grammy Latino, artista multiplatino y reconocido por su carrera de más de 15 años. 
+                                   <br>                         
+                                    Visita su pagina : <a href="http://www.davidbisbal.com/es_ES/Biografia">davidbisbal.com</a> 
+                                </p>  
+                            </div>
+                            <div class="col-4 shadowImage">
+                                <img src="./images/david3.jpg" class="img-thumbnail" alt="David Bisbal">
+                            </div>
+                        </div>
+                    </div>	
+                </div>	                
+
+                <!-- SEGUNDA SECCION -->
+                <div class="row"> 
+                     <p>Quiere saber como surgi&oacute la carrera de David Bisbal?... como fue su participaci&oacuten en el programa de televici&oacuten  "Operacion Triunfo" en Espa&ntildea?. Te invito a leer nuestra secci&oacuten
+                        <a href="#contenido"> "El sue&ntildeo de todo cantante"</a></p>   
+                </div>
+
+                <!-- TERCERA SECCION -->
+                <div class="text-center">
+                    <h5>Colaboraciones con Greysi, Yatra, Juan Magan</h5>  
+                </div>
+
+                <div class="row">                    
+                    <div class="col-4">
+                        <span class="cancion1"><img src="./images/greicy.jpg" alt="Junto con Greysi"></span>
+                    </div> 
+                    <div class="col-4">
+                        <span class="cancion2"><img src="./images/yatra.jpg" alt="Junto con Sebastian Yatra"></span>
+                    </div> 
+                    <div class="col-4">
+                        <span class="cancion3"><img src="./images/juan.jpg" alt="Junto con Juan Magan"></span>
+                    </div>                 
+                </div>
+                
+                <!-- CUARTA SECCION -->
+                <div class="text-center">
+                    <h5>Colaboraciones en la pelicula de Frozzen 2 y junto a Aitana</h5>  
+                </div>
+                 <div class="row"> 
+                    <div class="col text-center">
+                        <span  class="cancion1"><img src="./images/frozzen.jpg" width="290" height="180" alt="Frozzen"></span>
+                    </div> 
+                     <div class="col text-center">
+                        <span class="cancion2"><img src="./images/ultima.jpg"  width="290" height="180" alt="Junto a Aitana"></span>
+                    </div> 
+                </div>       		
+                
+                <br>
+                <br>
+                 <!-- QUINTA SECCION -->
+                <div class="container" id="contenido">
+                     <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                           <div class="panel-heading">
+                              <h4 class="panel-title">
+                                 <a data-toggle="collapse" data-parent="#accordion" href="#collapse1">El sue&ntildeo de todo cantante</a>
+                              </h4>
+                           </div>
+                           <div id="collapse1" class="panel-collapse collapse in">                              
+                                <blockquote class="panel-body blockquote text-justify">
+                                  <p class="textoSecundario"> 
+                                  David se present&oacute al casting de Operaci&oacuten Triunfo en Barcelona. En 2001, fue uno de los 16 concursantes de la primera edición española del programa, concebido para elegir al representante para el festival Eurovisi&oacuten de aquel año. Finalmente, fue seleccionado como segundo finalista detrás de Rosa López con el 20,9 % de los votos —382 858 emitidos del 4 al 11 de febrero entre 163 060 a trav&eacutes de llamadas y 219 798 v&iacutea mensajes, seg&uacuten Movilisto—.6​7​ David actu&oacute en Eurovisi&oacuten haciendo los coros a Rosa L&oacutepez junto con David Bustamante, Chenoa, Gisela y Geno Machado.</p>
+                                    <footer class="blockquote-footer text-center">Wikipedia 
+                                        <cite title="Source Title"> <a href="https://es.wikipedia.org/wiki/David_Bisbal">Link</cite></a>
+                                    </footer>
+                                </blockquote>                             
+                           </div>
+                       </div>
+                   </div>
+                </div>
+             
+            </div>
         </div>
-        <div class="bannerSecundario">
-            <h2>Ultimas colaboraciones..</h2>	
-            <div class="bannerSeparator">
-                <span  class="cancion1"><img src="greicy.jpg" alt="Junto con Greysi"></span>
-                <span class="cancion2"><img src="yatra.jpg" alt="Junto con Sebastian Yatra"></span>
-                <span class="cancion3"><img src="juan.jpg" alt="Junto con Juan Magan"></span>
-            </div>		
-        </div>
-        <div class="bannerbotton">
-                <span class="textBottom">Derechos Reservados - MariaMujica</span>		
-        </div>
-    </body>   
+
+        <hr class="style-eight" />
+
+        <!-- SECTA SECCION -->
+             <!-- Footer -->
+        <footer class="page-footer font-small blue">
+          <!-- Copyright -->
+          <div class="footer-copyright text-center py-3">© 2020 Copyright:
+            <a style="color: blue"> Derechos Reservados - MariaMujica</a>
+          </div>
+          <!-- Copyright -->
+        </footer>
+        <!-- Footer -->
+       
+    </body>
+
+    <link href="./bootstrap-4.5.3-dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="./bootstrap-4.5.3-dist/js/bootstrap.min.js"> </script>   
 </html>
